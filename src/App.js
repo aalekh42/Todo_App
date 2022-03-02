@@ -1,17 +1,17 @@
 import "./App.css";
 import Demo from "./components/Demo";
 import ErrorBoundary from "./components/ErrorBoundary";
-import Contact from './Contact';
+import Contact from "./Contact";
 import Welcome from "./Welcome";
 
 function App() {
   return (
     <>
-    <Welcome/>
-    
-    <Contact/>
-    
-      
+      <div className="app-container container-fluid">
+        <div className="row">
+          <Welcome />
+        </div>
+      </div>
     </>
   );
 }
